@@ -5,7 +5,7 @@ const people = [
 ];
 
 const namePerson = people.map((person) => person.name);
-console.log(namePerson);
+console.table(namePerson);
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'

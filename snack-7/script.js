@@ -19,7 +19,7 @@ const students = [
   },
 ];
 
-const student2 = students.filter((person) => person.id === 2);
+const student2 = students.find((person) => person.id === 2);
 
 console.log(student2);
 

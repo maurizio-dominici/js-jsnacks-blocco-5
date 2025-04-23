@@ -20,8 +20,12 @@ const students = [
 ];
 
 const marcoStudent = students
-  .filter((beginner) => beginner.name === "Marco Lanci")
+  .find((beginner) => beginner.name === "Marco Lanci")
   .map((beginner) => beginner.class);
+
+// ^SECONDO METODO
+// -- .find((beginner) => beginner.name === "Marco Lanci")
+// -- ?.class
 
 console.log(marcoStudent);
 
